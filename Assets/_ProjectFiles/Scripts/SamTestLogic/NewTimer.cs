@@ -1,34 +1,3 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Events;
-
-public class NewTimer : MonoBehaviour
-{
-    public float TimeToEnable;
-
-    public UnityEvent onTimesUp;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnDisable()
-    {
-        Invoke("TimesUp", TimeToEnable);
-    }
-
-    void TimesUp()
-    {
-        onTimesUp.Invoke();
-        //gameObject.SetActive(false);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:125c3cdfad754803f5df0b8d70a9bc450a1c3e38354a0805c894b9e285e6c2e2
+size 614

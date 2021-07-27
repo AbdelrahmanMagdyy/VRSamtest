@@ -1,32 +1,3 @@
-/************************************************************************************
-
-Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.  
-
-************************************************************************************/
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor.UI;
-using UnityEditor;
-
-[CustomEditor(typeof(MediaPlayerImage), true)]
-public class MediaPlayerImageEditor : ImageEditor
-{
-
-    SerializedProperty m_ButtonType;
-
-    protected override void OnEnable()
-    {
-        base.OnEnable();
-
-        m_ButtonType = serializedObject.FindProperty("m_ButtonType");
-    }
-
-    public override void OnInspectorGUI()
-    {
-        base.OnInspectorGUI();
-
-        EditorGUILayout.PropertyField(m_ButtonType);
-        serializedObject.ApplyModifiedProperties();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9980245b401188f283ad710729c415347d5c1a85ba18beedeff32bad5dd225f7
+size 858

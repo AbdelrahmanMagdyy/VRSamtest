@@ -1,35 +1,3 @@
-/************************************************************************************
-
-Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.  
-
-See SampleFramework license.txt for license terms.  Unless required by applicable law 
-or agreed to in writing, the sample code is provided “AS IS” WITHOUT WARRANTIES OR 
-CONDITIONS OF ANY KIND, either express or implied.  See the license for specific 
-language governing permissions and limitations under the license.
-
-************************************************************************************/
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace OculusSampleFramework
-{
-    public class PauseOnInputLoss : MonoBehaviour
-    {
-        void Start()
-        {
-            OVRManager.InputFocusAcquired += OnInputFocusAcquired;
-            OVRManager.InputFocusLost += OnInputFocusLost;
-        }
-
-        private void OnInputFocusLost()
-        {
-            Time.timeScale = 0.0f;
-        }
-
-        private void OnInputFocusAcquired()
-        {
-            Time.timeScale = 1.0f;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:abb2723ae1193ede27b5663742cde6abff6184a94863bd93f6fb20cffa272dc3
+size 1119

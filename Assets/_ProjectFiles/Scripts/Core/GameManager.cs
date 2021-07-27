@@ -1,28 +1,3 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
-
-namespace _ProjectFiles.Scripts.Core {
-    public class GameManager : MonoBehaviour
-    {
-        // Start is called before the first frame update
-        private void Start()
-        {
-        
-        }
-
-        // Update is called once per frame
-        private void Update()
-        {
-            // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
-            ApplicationResetDebug();
-        }
-
-        private static void ApplicationResetDebug() 
-        {
-            if (!Input.GetKey(KeyCode.R)) return;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
-            Debug.Log("Reset Active Unity Scene: " + SceneManager.GetActiveScene().name);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e59b096d2f6124f22ddf5a0d4bb0461c3613f65b90ad8501f907c42263b0aa0c
+size 872

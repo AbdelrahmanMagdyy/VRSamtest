@@ -1,20 +1,3 @@
-{
-    "name": "",
-    "type": "asset",
-    "roots": [],
-    "includes": [],
-    "excludes": [
-        "Temp/",
-        "External/"
-    ],
-    "baseScore": 100,
-    "options": {
-        "disabled": false,
-        "files": true,
-        "directories": false,
-        "fstats": false,
-        "types": true,
-        "properties": false,
-        "dependencies": true
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb9391e2801caa94f028808997a69e64063cd905658ad710896543a345adc1b2
+size 370

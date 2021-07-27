@@ -1,9 +1,3 @@
-newmtl oculusriftscontleft
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd left_diff.png
-Ni 1.00
-Ks 0.00 0.00 0.00
-map_Ks left_spec.png
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac3e64c5837d88eeedd9ed89ef2674691ec74d66bda01dfd2c3a4585d9e7f93c
+size 164

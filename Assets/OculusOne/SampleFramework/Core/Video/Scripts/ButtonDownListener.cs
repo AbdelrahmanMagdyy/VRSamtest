@@ -1,22 +1,3 @@
-/************************************************************************************
-
-Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.  
-
-************************************************************************************/
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-public class ButtonDownListener : MonoBehaviour, UnityEngine.EventSystems.IPointerDownHandler
-{
-    public event System.Action onButtonDown;
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        if (onButtonDown != null)
-        {
-            onButtonDown.Invoke();
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9dfe7c3348b88054c8ed1ffd30e14dc200bcd45f9db012565879ca6c9cf5e964
+size 673

@@ -1,26 +1,3 @@
-/************************************************************************************
-
-Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved.  
-
-See SampleFramework license.txt for license terms.  Unless required by applicable law 
-or agreed to in writing, the sample code is provided “AS IS” WITHOUT WARRANTIES OR 
-CONDITIONS OF ANY KIND, either express or implied.  See the license for specific 
-language governing permissions and limitations under the license.
-
-************************************************************************************/
-
-namespace OculusSampleFramework
-{
-	/// <summary>
-	/// The visual abstraction of an interactable tool.
-	/// </summary>
-	public interface InteractableToolView
-	{
-		InteractableTool InteractableTool { get; }
-		void SetFocusedInteractable(Interactable interactable);
-
-		bool EnableState { get; set; }
-		// Useful if you want to tool to glow in case it interacts with an object.
-		bool ToolActivateState { get; set; }
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d27b30eb51a548c8288023d72f35b32623082863d2045be34cef7f7abef75aa6
+size 1001
